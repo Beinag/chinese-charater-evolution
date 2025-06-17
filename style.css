@@ -1,0 +1,27 @@
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    background: #f9f3e9;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #d4a76a;
+}
+
+.character {
+    font-size: 100px;
+    margin: 30px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.character:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
